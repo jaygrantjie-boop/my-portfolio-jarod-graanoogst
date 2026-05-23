@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Work — Jarod Graanoogst</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/work.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">JG<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html" class="active">Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu openen">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="work.html">Work</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="page-header">
+    <div class="section-label">Mijn projecten</div>
+    <h1>Work</h1>
+    <p>Een selectie van projecten die ik gemaakt heb.</p>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-cat="all">Alles</button>
+    <button class="filter-btn" data-cat="web">Web</button>
+    <button class="filter-btn" data-cat="design">Design</button>
+    <button class="filter-btn" data-cat="other">Overig</button>
+  </div>
+
+  <section class="projects-section">
+    <div class="projects-grid" id="projectsGrid">
+
+      <div class="project-card" data-cat="web">
+        <div class="project-thumb project-thumb-1">
+          <span class="project-num">01</span>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          <h3>Portfolio Website</h3>
+          <p>Mijn persoonlijke portfolio website gebouwd met HTML, CSS en JavaScript. Responsive design met animaties.</p>
+          <div class="project-links">
+            <a href="#" class="link-btn">🔗 Live bekijken</a>
+            <a href="#" class="link-btn link-btn-ghost">📂 GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-cat="design">
+        <div class="project-thumb project-thumb-2">
+          <span class="project-num">02</span>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>Figma</span><span>UI/UX</span></div>
+          <h3>Design Project</h3>
+          <p>Beschrijving van een design project. Bijv. een app ontwerp, logo, of website mockup die je gemaakt hebt.</p>
+          <div class="project-links">
+            <a href="#" class="link-btn">🔗 Bekijken</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-cat="web">
+        <div class="project-thumb project-thumb-3">
+          <span class="project-num">03</span>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>Python</span><span>Data</span></div>
+          <h3>Nog een Project</h3>
+          <p>Beschrijf hier een ander project. Wat was de uitdaging? Hoe heb jij het opgelost?</p>
+          <div class="project-links">
+            <a href="#" class="link-btn">🔗 Live bekijken</a>
+            <a href="#" class="link-btn link-btn-ghost">📂 GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-cat="other">
+        <div class="project-thumb project-thumb-4">
+          <span class="project-num">04</span>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>Schoolproject</span></div>
+          <h3>Schoolproject Titel</h3>
+          <p>Dit was een schoolopdracht waarbij ik een volledige website heb gebouwd. Het resultaat was een werkende portfolio.</p>
+          <div class="project-links">
+            <a href="#" class="link-btn">🔗 Meer info</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Jarod Graanoogst · Gemaakt met ❤️</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
